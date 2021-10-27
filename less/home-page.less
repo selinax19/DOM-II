@@ -9,6 +9,13 @@
       height: auto;
     }
 
+    .off{
+      display: none;
+    }
+    .zoom{
+      -webkit-transform:scale(2); /* or some other value */
+        transform:scale(2);
+    }
     h2 {
       margin-top: 20px;
     }
@@ -109,6 +116,28 @@
       .btn {
         .button-creator(200px, 45px, @button-bg, @white, 1.8rem);     
       }
+      .zoom{
+        -webkit-transform:scale(3); /* or some other value */
+        transform:scale(3);
+      }
+      .off{
+        display: none;
+      }
+    }
+    .off{
+      display: none;
+    }
+    .trash{
+      margin: 15px auto;
+
+      img{
+        height: 25rem;
+        width: 25rem;
+      }
+      .zoom{
+      -webkit-transform:scale(3); /* or some other value */
+      transform:scale(3);
     }
   }
-}// home
+    }
+  }
